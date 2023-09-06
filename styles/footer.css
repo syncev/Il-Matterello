@@ -1,0 +1,50 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 48px;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat";
+}
+.copyright{
+    font-family: "Montserrat";
+    padding-bottom: 1rem;
+}
+.links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.copyright p{
+    padding: 0.25rem 0;
+    
+}
+.footer-circle{
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    bottom: -65px;
+    background-color: var(--primary-color);
+    z-index: -2;
+    border-radius: 50% 50% 0 0;
+}
+.footer-floating{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translate(-30%, 20% ) rotate(-5deg);
+}
+.brand-copy{
+    font-weight: bold;
+}
