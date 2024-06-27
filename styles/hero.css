@@ -1,6 +1,7 @@
 body{
 
-    background-color: aliceblue
+    background-color: aliceblue;
+    overflow: auto;
 }
 body::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
