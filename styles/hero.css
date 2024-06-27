@@ -2,6 +2,9 @@ body{
 
     background-color: aliceblue
 }
+body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 .hero{
     position: relative;
     padding-bottom: 3rem;
